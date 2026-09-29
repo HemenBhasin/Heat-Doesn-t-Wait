@@ -29,6 +29,16 @@ export default function ModernLanding() {
 
       <main id="top">
         <section className="heat-hero">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="hero-bg-video"
+          >
+            <source src="/hero-bg.mp4" type="video/mp4" />
+          </video>
+          <div className="hero-video-overlay" />
           <div className="hero-orb hero-orb-one" /><div className="hero-orb hero-orb-two" />
           <motion.div 
             className="heat-hero-copy"
